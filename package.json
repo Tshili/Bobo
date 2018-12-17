@@ -1,0 +1,28 @@
+{
+  "name": "instagram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "basic-instagram-user-details": "^1.0.2",
+    "fs-extra": "^7.0.1",
+    "gh-following": "^1.1.9",
+    "instagram-nodejs-without-api": "^1.0.3",
+    "instagram-web-api": "^2.0.0",
+    "instapro": "^2.0.3",
+    "instauto": "^4.3.2",
+    "node-instagram": "^4.2.0",
+    "pouchdb": "^7.0.0",
+    "public-instagram": "^0.6.1",
+    "puppeteer": "^1.6.0",
+    "request-promise": "^4.2.2",
+    "shuffle-array": "^1.0.1"
+  }
+}

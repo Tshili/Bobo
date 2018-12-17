@@ -1,0 +1,108 @@
+{
+  "base_url": "https://www.instagram.com/accounts/login/?hl=fr&source=auth_switcher",
+  "username": "ty_keriec",
+  "password": "Trelevern.22",
+  "fake_username": "mego4253",
+  "fake_password": "Azertyuiop12",
+  "hashtags": [
+    "bretagne",
+    "breizh",
+    "finistere",
+    "bretagnetourisme",
+    "bzh",
+    "jaimelabretagne",
+    "igersbretagne",
+    "fansdebretagne",
+    "bretagne_focus_on",
+    "morbihan",
+    "saintmalo",
+    "brittany",
+    "quiberon",
+    "cotedarmor",
+    "cotesdarmor",
+    "destinationbretagne",
+    "naturephotography",
+    "breton",
+    "labellebretagne"
+  ],
+  "location": [{
+      "id": 324845852,
+      "place": "Bretagne"
+    },
+    {
+      "id": 219459401,
+      "place": "Saint-Malo"
+    }
+  ],
+  "influencer_name": [{
+      "id": "610049538",
+      "username": "fansdebretagne"
+
+    },
+
+    {
+      "id": "5621677524",
+      "username": "agriculteurs_de_bretagne"
+
+    },
+    {
+      "id": "2532987817",
+      "username": "destinationbretagne"
+
+    },
+
+    {
+      "id": "1645230500",
+      "username": "jaimelabretagne"
+
+    },
+
+    {
+      "id": "1718461439",
+      "username": "leportdattache"
+
+    },
+    {
+      "id": "4064844231",
+      "username": "bestofbretagne"
+
+    },
+    {
+      "id": "3294263761",
+      "username": "breizhclub"
+
+    }
+  ],
+  "settings": {
+    "run_every_x_hours": 1,
+    "like_ratio": 0.75,
+    "follow_ratio": 0.25,
+    "do_unfollows": true,
+    "unfollow_after_days": 1,
+    "headless": true,
+    "followers_number": 5,
+    "following_number": 5,
+    "likers_photo_of_influencer": 5
+  },
+
+  "selectors": {
+    "home_to_login_button": ".izU2O a",
+    "username_field": "input[type=\"text\"]",
+    "password_field": "input[type=\"password\"]",
+    "login_button": "#react-root > section > main > div > article > div > div:nth-child(1) > div > form > div:nth-child(3) > button",
+    "post_heart_grey": "span.glyphsSpriteHeart__outline__24__grey_9",
+    "post_username": "a.FPmhX.notranslate.nJAzx",
+    "post_follow_link": "div.bY2yH > button",
+    "post_like_button": "span.fr66n > button",
+    "post_follow_button": "span.oW_lN._1OSdk > button",
+    "post_close_button": "button.ckWGn",
+    "user_unfollow_button": "#react-root > section > main > div > header > section > div.nZSzR > span > span.vBF20._1OSdk > button",
+    "user_unfollow_confirm_button": "body > div:nth-child(15) > div > div > div > div.mt3GC > button.aOOlW.-Cab_",
+    "followers_button": "li.Y8-fY  > a",
+    "followersofMyFollowers_button": "div._1xe_U  > a",
+    "go_list_like_button": "body > div:nth-child(15) > div > div.zZYga > div > article > div.eo2As > section.EDfFK.ygqzn > div > div > button"
+
+
+  }
+
+}

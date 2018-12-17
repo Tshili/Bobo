@@ -1,0 +1,78 @@
+let PouchDB = require('pouchdb');
+
+let db = new PouchDB('follows');
+let dbFollowing = new PouchDB('following');
+let db_archive = new PouchDB('followsArchive');
+
+let addFollow = async function (username) {
+    return db.put({
+        _id: username,
+        added: new Date().getTime()
+    });
+};
+
+
+
+let getFollows = async function () {
+    return db.allDocs({
+        include_docs: true
+    });
+};
+
+let getUnfollowsArchive = async function () {
+
+    return db_archive.allDocs({
+        include_docs: true
+    }).catch(e => console.log("all unfollow in archive " + e));
+};
+
+let unFollow = async function (username) {
+    return new Promise(function (resolve, reject) {
+        db.get(username).then(doc => {
+                return db.remove(doc);
+            })
+            .then(() => {
+                return db_archive.put({
+                    _id: username
+                });
+            })
+            .then(() => {
+                resolve(true);
+            }).catch(e => reject(e));
+    });
+};
+
+let inArchive = async function (username) {
+    return db_archive.get(username);
+};
+
+
+// database for following 
+
+let addFollowing = async function (username) {
+    return dbFollowing.put({
+        _id: username,
+        added: new Date().getTime()
+    });
+};
+
+
+let getFollowing = async function () {
+
+    return await dbFollowing.allDocs({
+        include_docs: true
+    });
+};
+
+
+
+module.exports.addFollow = addFollow;
+module.exports.inArchive = inArchive;
+module.exports.getFollows = getFollows;
+module.exports.unFollow = unFollow;
+module.exports.getUnfollowsArchive = getUnfollowsArchive;
+
+
+// following
+module.exports.addFollowing = addFollowing;
+module.exports.getFollowing = getFollowing;
