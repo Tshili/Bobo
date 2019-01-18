@@ -7,7 +7,7 @@ let launchBrowser = async function(puppeteer, cnf) {
       args: ['--no-sandbox', '--disable-setuid-sandbox']
       //args: ['--window-size=1920,1080']
     })
-    .catch(err => console.log(err));
+    .catch(err => console.log('error launching : ' + err));
 };
 
 let loadInstagram = async function(page, cnf) {
