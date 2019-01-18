@@ -15,7 +15,7 @@ let navigation = require('../src/api/browser.js');
 let stat = require('../src/api/stats.js');
 
 let run = async () => {
-  /*************  Configuration of chrome   *************/
+  /*************  Configuration of chrome   ****************/
 
   // creation d'une instance de chrome
   const browser = await navigation.launchBrowser(puppeteer, cnf);
@@ -23,7 +23,7 @@ let run = async () => {
   //creation d'une nouvel onglet
   const page = await browser
     .newPage()
-    .catch(err => console.log('create tab error : ' + err));
+    .catch(err => console.log('create tab eror : ' + err));
 
   await navigation.chromeParameter(page);
 
