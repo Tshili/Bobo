@@ -72,7 +72,7 @@
     "follow_ratio": 0.25,
     "do_unfollows": true,
     "unfollow_after_days": 1,
-    "headless": false,
+    "headless": true,
     "followers_number": 1,
     "following_number": 1,
     "likers_photo_of_influencer": 1
