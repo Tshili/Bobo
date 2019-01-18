@@ -2,8 +2,6 @@
   "base_url": "https://www.instagram.com/accounts/login/?hl=fr&source=auth_switcher",
   "username": "ty_keriec",
   "password": "Trelevern.22",
-  "fake_username": "mego4253",
-  "fake_password": "Azertyuiop12",
   "hashtags": [
     "bretagne",
     "breizh",
@@ -25,7 +23,8 @@
     "breton",
     "labellebretagne"
   ],
-  "location": [{
+  "location": [
+    {
       "id": 324845852,
       "place": "Bretagne"
     },
@@ -34,43 +33,37 @@
       "place": "Saint-Malo"
     }
   ],
-  "influencer_name": [{
+  "influencer_name": [
+    {
       "id": "610049538",
       "username": "fansdebretagne"
-
     },
 
     {
       "id": "5621677524",
       "username": "agriculteurs_de_bretagne"
-
     },
     {
       "id": "2532987817",
       "username": "destinationbretagne"
-
     },
 
     {
       "id": "1645230500",
       "username": "jaimelabretagne"
-
     },
 
     {
       "id": "1718461439",
       "username": "leportdattache"
-
     },
     {
       "id": "4064844231",
       "username": "bestofbretagne"
-
     },
     {
       "id": "3294263761",
       "username": "breizhclub"
-
     }
   ],
   "settings": {
@@ -80,9 +73,9 @@
     "do_unfollows": true,
     "unfollow_after_days": 1,
     "headless": true,
-    "followers_number": 5,
-    "following_number": 5,
-    "likers_photo_of_influencer": 5
+    "followers_number": 1,
+    "following_number": 1,
+    "likers_photo_of_influencer": 1
   },
 
   "selectors": {
@@ -101,8 +94,5 @@
     "followers_button": "li.Y8-fY  > a",
     "followersofMyFollowers_button": "div._1xe_U  > a",
     "go_list_like_button": "body > div:nth-child(15) > div > div.zZYga > div > article > div.eo2As > section.EDfFK.ygqzn > div > div > button"
-
-
   }
-
 }
