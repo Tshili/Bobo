@@ -1,5 +1,5 @@
-let cnf = require('/Users/Tshili/Documents/Project/instagram/config/config.json');
-let ops = require('/Users/Tshili/Documents/Project/instagram/src/pouchDB.js');
+let cnf = require('../../config/config.json');
+let ops = require('../pouchDB.js');
 
 let unfollow = async function unfollow(page) {
   /*************  Unfollow  *************/

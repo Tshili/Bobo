@@ -2,17 +2,17 @@ const puppeteer = require('puppeteer');
 const shuffle = require('shuffle-array');
 const fs = require('fs-extra');
 
-let follow = require('/Users/Tshili/Documents/Project/instagram/src/api/follow.js');
+let follow = require('../src/api/follow.js');
 let cnf = require('../config/config.json');
 let fnl = require('../src/api/follow.js');
-let fwg = require('/Users/Tshili/Documents/Project/instagram/src/api/following.js');
-let fwe = require('/Users/Tshili/Documents/Project/instagram/src/api/followers.js');
+let fwg = require('../src/api/following.js');
+let fwe = require('../src/api/followers.js');
 
 let unf = require('../src/api/unfollow-user.js');
 let flw = require('./api/following.js');
 let cook = require('../config/cookies.js');
-let navigation = require('/Users/Tshili/Documents/Project/instagram/src/api/browser.js');
-let stat = require('/Users/Tshili/Documents/Project/instagram/src/api/stats.js');
+let navigation = require('../src/api/browser.js');
+let stat = require('../src/api/stats.js');
 
 let run = async () => {
   /*************  Configuration of chrome   *************/

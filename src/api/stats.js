@@ -1,5 +1,5 @@
 require('dotenv').config();
-let ops = require('/Users/Tshili/Documents/Project/instagram/src/pouchDB.js');
+let ops = require('../pouchDB.js');
 const moment = require('moment');
 
 let numbersFollowers = async function(page) {

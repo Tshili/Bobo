@@ -1,5 +1,6 @@
-let cnf = require('/Users/Tshili/Documents/Project/instagram/config/config.json');
-let ops = require('/Users/Tshili/Documents/Project/instagram/src/pouchDB.js');
+let cnf = require('../../config/config.json');
+let ops = require('../pouchDB.js');
+
 const shuffle = require('shuffle-array');
 const Instagram = require('instagram-web-api');
 
