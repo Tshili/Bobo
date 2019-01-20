@@ -4,7 +4,7 @@ let launchBrowser = async function(puppeteer, cnf) {
   return await puppeteer
     .launch({
       headless: cnf.settings.headless,
-      args: ['--no-sandbox', '--disable-setuid-sandbox']
+      args: ['--no-sandbox']
       //args: ['--window-size=1920,1080']
     })
     .catch(err => console.log('error launching : ' + err));
