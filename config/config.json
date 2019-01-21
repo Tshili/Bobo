@@ -82,6 +82,7 @@
     "password_field": "input[type=\"password\"]",
     "login_button": "#react-root > section > main > div > article > div > div:nth-child(1) > div > form > div:nth-child(3) > button",
     "post_heart_grey": "span.glyphsSpriteHeart__outline__24__grey_9",
+    "post_heart_red": ".glyphsSpriteHeart__filled__24__red_5",
     "post_username": "a.FPmhX.notranslate.nJAzx",
     "post_follow_link": "div.bY2yH > button",
     "post_like_button": "span.fr66n > button",

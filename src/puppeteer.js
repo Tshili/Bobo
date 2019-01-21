@@ -50,10 +50,10 @@ let run = async () => {
   //await stat.numbersFollowers(page);
 
   /*************  historic of numbers of Followers  *************/
-  //await stat.historicFollowers();
+  await stat.historicFollowers();
 
   /*************  historic of numbers of Followers  *************/
-  //await stat.numberFollowerPerDay();
+  // await stat.numberFollowerPerDay();
 
   /*************  Unfollow  *************/
 

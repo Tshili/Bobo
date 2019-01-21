@@ -289,7 +289,9 @@ let followingAndLike = async function followingAndLike(page) {
       let hasEmptyHeart = await page.$(cnf.selectors.post_heart_grey);
 
       if (hasEmptyHeart !== null && Math.random() < cnf.settings.like_ratio) {
-        await page.click(cnf.selectors.post_like_button);
+        await page
+          .click(cnf.selectors.post_like_button)
+          .catch(err => console.log('error click like ' + err));
         console.log('---> like for ' + username);
         console.log('++++ numbersLikes is : ' + numbersLikes);
         numbersLikes++;
